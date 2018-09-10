@@ -10,21 +10,16 @@ and record the visited nodes.
 """
 # Codes 1 
 def friendsCircle(Matrix):
-  graph = collections.defaultdict(list)
   n = len(Matrix)
-  for i in range(n):
-    for j in range(n):
-      if Matrix[i][j] == 1:
-        graph[i].append(j)
-        
   visited = set([])
   
   def dfs(i):
     if i in visited:
       return 
     visited.add(i)
-    for j in graph[i]:
-      dfs(j)
+    for j in range(n):
+      if Matrix[i][j]:
+        dfs(j)
   
   n_components = 0
   for i in range(n):
