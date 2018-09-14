@@ -12,7 +12,7 @@ public:
                     for (char c4: letters) {
                         if (c1 <= '2' && (c2 <= '4' || c1 <= '1') && c3 <= '5') {
                             char s[] = {c1, c2, ':', c3, c4};
-                            Times.insert(string(s)); // bug!
+                            Times.insert(string(s, 5)); 
                         }
                     }
                 }
