@@ -62,7 +62,9 @@ preorder for searching problems.
 """
 
 """
-Note: This iterative algorithm is not optimal in the case of tree traversal. In tree traversal, once does not
-need to use a hashset to track the visited nodes, based on extra properties of tree: no cycle. 
+Note: This iterative algorithm is not optimal in a lot of cases. For example in tree traversal, once does not
+need to use a hashset to track the visited nodes, based on extra properties of tree: no cycle. In many algorithm
+questions, the point is to find a way to iterate all the possible solutions without repetitions, so that we
+don't need to use a hashset. 
 """
   
