@@ -1,19 +1,3 @@
-Skip to content
-This repository  
-Search
-Pull requests
-Issues
-Gist
- @Yajingleo
- Unwatch 1
-  Star 0
-  Fork 0 Yajingleo/NQueen
- Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
-Branch: master Find file Copy pathNQueen/source1.cpp
-b4872bc  on Mar 19, 2015
-@Yajingleo Yajingleo create NQueen
-1 contributor
-RawBlameHistory     65 lines (60 sloc)  1.63 KB
 #include<iostream>
 #include<vector>
 #include<string>
@@ -66,18 +50,3 @@ void   seekingat(vector<int> answer, vector<vector<string>> &result, int row, in
        }
    }
 };
-
-/*void main(){
-	Solution S;
-	const int N=4;
-	vector<vector<string>> result=S.solveNQueens(N);
-	for (int i=0;i<result.size();i++){
-		cout << "Solution" << i<<":"<<endl; 
-		for (int k=0;k<N;k++){
-			cout<< (result[i])[k]<<endl;
-		}
-	}
-	system ("pause");
-}
-Status API Training Shop Blog About Pricing
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
